@@ -14,7 +14,7 @@
         <h1 class="blog-heder">My Blogs</h1>
     </header>
     <hr>
-    <section>
+    <section class="blogs">
         <article class="card">
             <h2>
                 Differences between 'local storage' and 'session storage':
@@ -74,6 +74,43 @@
                     </ul>
                 </li>
             </ol>
+        </article>
+        <article class="card">
+            <h2>
+                When we get undefined in javascript ?
+            </h2>
+            <h3>
+                undefined is a primitive value automatically assigned to variables that have just been declared, or to
+                formal arguments for which there are no actual arguments.
+            </h3>
+            <ul>
+
+                <li>
+                    A variable that has not been assigned a value is of type undefined.
+                </li>
+                <li>
+                    A method or statement also returns undefined if the variable that is being evaluated does not have
+                    an assigned value.
+                </li>
+                <li>
+                    A function returns undefined if a value was not returned .
+                </li>
+            </ul>
+        </article>
+        <article class="card">
+            <h2>
+                How event loop works ? ?
+            </h2>
+            <h3>
+                JavaScript has a runtime model based on an event loop, which is responsible for executing the code,
+                collecting and processing events, and executing queued sub-tasks.
+            </h3>
+            <p>
+                Event Loop is an advanced-level JavaScript concept, the Event loop is a function of javascript that
+                places the instructions waiting in the event queue to the global execution stack. When you are working
+                with asynchronous execution you have 3 different environments running which are namely: Execution stack,
+                WEB APIs, and event/message queue.
+            </p>
         </article>
     </section>
 </body>
