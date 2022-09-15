@@ -38,3 +38,8 @@ function displayHistory() {
     histories.appendChild(newRow);
   });
 }
+
+function clearHistory() {
+  histories.textContent = '';
+  localStorage.removeItem('testHistory')
+}
