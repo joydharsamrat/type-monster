@@ -45,27 +45,31 @@
         </article>
         <article class="card">
             <h2>
-                Differences between 'local storage' and 'session storage':
+                Differences between 'global scope' and 'block scope':
             </h2>
             <ol>
                 <li>
                     <ul>
                         <li>
-                            The storage capacity of local storage is 5MB/10MB
+                            The variables defined outside of any function or curly brackets are known as global
+                            variables and have global scope.
                         </li>
                         <li>
-                            The storage capacity of session storage is 5MB
+                            Block scope is a sub-type of local scope. The block scope can be defined as the scope of the
+                            variables inside the curly brackets {}. Now, these curly brackets can be of loops, or
+                            conditional statements, or something else.
                         </li>
                     </ul>
                 </li>
                 <li>
                     <ul>
                         <li>
-                            As local storage is not session-based, it must be deleted via javascript or manually
+                            Global scope means that the variables can be accessed from any part of that program, any
+                            function or conditional state can access that variable
                         </li>
                         <li>
-                            Session storage is session-based and works per window or tab. This means that data is stored
-                            only for the duration of a session, i.e., until the browser (or tab) is closed
+                            in block scope it is only allowed to refer to these variables from within the curly brackets
+                            {}.
                         </li>
                     </ul>
                 </li>
